@@ -11,6 +11,7 @@ X0 = @(s) [s, 0, -2*s*exp(-s^2), 2*s*exp(-3*s^2), exp(-s^2)];
 
 [x, y, p, q, u] = SolveCharacteristics(f, X0);
 
+syms s
 figure
 
 Nt = 101;
